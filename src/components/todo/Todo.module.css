@@ -1,0 +1,14 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 1rem;
+}
+
+.button {
+  border: 0;
+  background-color: transparent;
+  color: white;
+  padding: 0;
+}

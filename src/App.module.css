@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50vw;
+  height: 50vh;
+  border-radius: 1rem;
+}
