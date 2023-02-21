@@ -2,7 +2,7 @@ import React from 'react';
 import styled from './Header.module.css';
 import { HiSun } from 'react-icons/hi';
 
-export default function Header() {
+export default function Header({ changeStatus }) {
   return (
     <header className={styled.header}>
       <div className={styled.theme}>
@@ -10,7 +10,7 @@ export default function Header() {
           <HiSun />
         </button>
       </div>
-      <div className={styled.state}>
+      <div className={styled.state} onClick={changeStatus}>
         <button className={styled.button}>All</button>
         <button className={styled.button}>Active</button>
         <button className={styled.button}>Completed</button>
